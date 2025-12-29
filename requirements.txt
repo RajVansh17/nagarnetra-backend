@@ -1,34 +1,10 @@
-# -----------------------------
-# Core API
-# -----------------------------
-fastapi==0.110.0
-uvicorn==0.27.1
-
-# -----------------------------
-# Environment variables
-# -----------------------------
-python-dotenv==1.0.1
-
-# -----------------------------
-# Firebase
-# -----------------------------
-firebase-admin==6.5.0
-
-# -----------------------------
-# Google Gemini (NEW SDK)
-# -----------------------------
-google-genai==0.4.0
-
-# -----------------------------
-# AI / ML Core
-# -----------------------------
+fastapi
+uvicorn[standard]
+python-multipart
+python-dotenv
+firebase-admin
+google-genai
+pillow
+numpy
+opencv-python-headless
 torch
-torchvision==0.17.0
-numpy==1.26.4
-opencv-python==4.9.0.80
-pillow==10.2.0
-
-# -----------------------------
-# Utilities
-# -----------------------------
-requests==2.31.0
